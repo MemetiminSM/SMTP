@@ -1,0 +1,40 @@
+<html>
+<head>
+<title>NumberExample.java</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<style type="text/css">
+.ln { color: #999999; font-weight: normal; font-style: normal; }
+.s0 { color: rgb(0,0,128); font-weight: bold; }
+.s1 { color: rgb(0,0,0); }
+.s2 { color: rgb(128,128,128); font-style: italic; }
+.s3 { color: rgb(0,128,0); font-weight: bold; }
+.s4 { color: rgb(0,0,255); }
+</style>
+</head>
+<BODY BGCOLOR="#ffffff">
+<TABLE CELLSPACING=0 CELLPADDING=5 COLS=1 WIDTH="100%" BGCOLOR="#c0c0c0" >
+<TR><TD><CENTER>
+<FONT FACE="Arial, Helvetica" COLOR="#000000">
+NumberExample.java</FONT>
+</center></TD></TR></TABLE>
+<pre>
+<a name="l1"><span class="ln">1    </span></a><span class="s0">package </span><span class="s1">com.seleniummaster.tutorial; 
+<a name="l2"><span class="ln">2    </span></a></span><span class="s0">import </span><span class="s1">java.util.Scanner; 
+<a name="l3"><span class="ln">3    </span></a></span><span class="s0">public class </span><span class="s1">NumberExample { 
+<a name="l4"><span class="ln">4    </span></a>    </span><span class="s2">//Enter a number from the console</span><span class="s1"> 
+<a name="l5"><span class="ln">5    </span></a>    </span><span class="s2">//divide the number by 2, if the remainder is 0, print even number, or odd number</span><span class="s1"> 
+<a name="l6"><span class="ln">6    </span></a>    </span><span class="s0">public static void </span><span class="s1">main(String[] args) { 
+<a name="l7"><span class="ln">7    </span></a>        </span><span class="s2">//define a scanner object to accept input from the console</span><span class="s1"> 
+<a name="l8"><span class="ln">8    </span></a>        Scanner myNumber = </span><span class="s0">new </span><span class="s1">Scanner(System.in); 
+<a name="l9"><span class="ln">9    </span></a>        System.out.print(</span><span class="s3">&quot;Please input a number: &quot;</span><span class="s1">); 
+<a name="l10"><span class="ln">10   </span></a>        </span><span class="s2">// % symbol is for getting remainder</span><span class="s1"> 
+<a name="l11"><span class="ln">11   </span></a>        </span><span class="s0">int </span><span class="s1">x = myNumber.nextInt(); 
+<a name="l12"><span class="ln">12   </span></a>        </span><span class="s0">if </span><span class="s1">(x % </span><span class="s4">2 </span><span class="s1">== </span><span class="s4">0</span><span class="s1">) 
+<a name="l13"><span class="ln">13   </span></a>            System.out.println(x + </span><span class="s3">&quot; is an even number&quot;</span><span class="s1">); 
+<a name="l14"><span class="ln">14   </span></a>        </span><span class="s0">else</span><span class="s1"> 
+<a name="l15"><span class="ln">15   </span></a>            System.out.println(x + </span><span class="s3">&quot; is an odd number&quot;</span><span class="s1">); 
+<a name="l16"><span class="ln">16   </span></a>    } 
+<a name="l17"><span class="ln">17   </span></a>} 
+<a name="l18"><span class="ln">18   </span></a></span></pre>
+</body>
+</html>

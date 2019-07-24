@@ -1,0 +1,4 @@
+username,password,role
+admin,test,admin
+clinicadmin,test,clinic
+student,test,student
