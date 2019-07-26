@@ -57,6 +57,7 @@ com/seleniummaster/classtutorial/ExceptionDemo.class
 com/seleniummaster/tutorial/HelloWorld.class
 com/seleniummaster/tutorial/EnumDemo1.class
 com/seleniummaster/tutorial/CommandArgumentDemo3.class
+com/seleniummaster/java/SeleniumIDE$TestCase3.class
 com/seleniummaster/classtutorial/ShapeArea$Rectangle.class
 com/seleniummaster/tutorial/MortageFunctions.class
 com/seleniummaster/classtutorial/PolymorphismClassY.class
@@ -128,6 +129,7 @@ com/seleniummaster/tutorial/MethodOverridingDemo.class
 com/seleniummaster/iO/FileDemo.class
 com/seleniummaster/tutorial/ClassA.class
 com/seleniummaster/tutorial/Homework/TestRunner.class
+com/seleniummaster/java/SeleniumIDE.class
 com/seleniummaster/iO/FileReadFromUrlDemo.class
 com/seleniummaster/classtutorial/CarPrint.class
 com/seleniummaster/classtutorial/StudentClass.class
